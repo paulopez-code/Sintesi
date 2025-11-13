@@ -119,9 +119,9 @@ while True:
             positiu_negatiu()
         case "9":
             positiu_o_negatiu()
-        case "a":
+        case "a" | "A":
             quin_nombre_mes_gran()
-        case "b":
+        case "b" | "B":
             calculs_basics()
         case "S" | "s":
             print("Fins aviat!")
