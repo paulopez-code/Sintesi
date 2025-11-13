@@ -1,6 +1,3 @@
-def HolaMundo():
-    print("HolaMundo()")
-    print("Hola, Mundo!")
 def area_del_quadrat():
     print("area_del_quadrat()")
     costat = float(input("Introdueix la longitud del costat del quadrat: "))
@@ -87,41 +84,38 @@ def calculs_basics():
     divisió = nombre1 / nombre2
     print ("la suma es:", int(suma), "la resta es:", int(resta), "la multiplicació es:", int(multiplicació), "la divisió es:", divisió)
 while True:
-    print("1. Hello, World!")
-    print("2. Àrea del quadrat")
-    print("3. Casting nombres")
-    print("4. Frase feta")
-    print("5. Major o menor d'edat")
-    print("6. Nombres parells de 1 a 200")
-    print("7. Notes dels estudiants")
-    print("8. Positiu o negatiu")
-    print("9. Positiu o negatiu en la llista")
-    print("a. Quin nombre és més gran?")
-    print("b. Suma, Resta, Multiplicació, Divisió")
+    print("1. Àrea del quadrat")
+    print("2. Casting nombres")
+    print("3. Frase feta")
+    print("4. Major o menor d'edat")
+    print("5. Nombres parells de 1 a 200")
+    print("6. Notes dels estudiants")
+    print("7. Positiu o negatiu")
+    print("8. Positiu o negatiu en la llista")
+    print("9. Quin nombre és més gran?")
+    print("10. Suma, Resta, Multiplicació, Divisió")
     print("S. Sortir")
     opcio = input("Que desitjes fer? ")
     match opcio:
         case "1":
-            HolaMundo()
-        case "2":
             area_del_quadrat()
-        case "3":
+        case "2":
             suma_nombres()
-        case "4":
+        case "3":
             frase_feta()
-        case "5":
+        case "4":
             major_o_menor()
-        case "6":
+        case "5":
             nombres_parells()
-        case "7":
+        case "6":
             notes_estudiants()
-        case "8":
+        case "7":
             positiu_negatiu()
-        case "9":
+        case "8":
             positiu_o_negatiu()
-        case "a" | "A":
+        case "9":
             quin_nombre_mes_gran()
-        case "b" | "B":
+        case "10":
             calculs_basics()
         case "S" | "s":
             print("Fins aviat!")
