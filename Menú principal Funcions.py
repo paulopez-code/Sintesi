@@ -1,3 +1,4 @@
+from time import sleep
 def area_del_quadrat():
     print("area_del_quadrat()")
     costat = float(input("Introdueix la longitud del costat del quadrat: "))
@@ -99,26 +100,37 @@ while True:
     match opcio:
         case "1":
             area_del_quadrat()
+            sleep(3)
         case "2":
             suma_nombres()
+            sleep(3)
         case "3":
             frase_feta()
+            sleep(3)
         case "4":
             major_o_menor()
+            sleep(3)
         case "5":
             nombres_parells()
+            sleep(3)
         case "6":
             notes_estudiants()
+            sleep(3)
         case "7":
             positiu_negatiu()
+            sleep(3)
         case "8":
             positiu_o_negatiu()
+            sleep(3)
         case "9":
             quin_nombre_mes_gran()
+            sleep(3)
         case "10":
             calculs_basics()
+            sleep(3)
         case "S" | "s":
             print("Fins aviat!")
             break
         case _:
             print("Opció no vàlida. Si us plau, tria una opció vàlida.")
+            sleep(3)
