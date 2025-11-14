@@ -1,6 +1,7 @@
-Aquí estan les tasques de sintesia SMX2A:
-1. Hello World!
-2. Area d'un quadrat
+# Aquí estan les tasques de sintesia SMX2A, i per practicar markdown:
+
+1. **Hello World!**
+2. *Area d'un quadrat*
 3. Casting de nombres
 4. Frase feta
 5. Menor o major (edat)
